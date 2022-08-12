@@ -1,0 +1,84 @@
+.s1-e1{
+    height: 5vh;
+    background-color: #0050c9;
+    flex-grow: 1;
+}
+
+.s1-e2{
+    height: 5vh;
+    background-color: #347879;
+    flex-grow: 2;
+}
+
+.s2-e1{
+    height: 5vh;
+    width: 40vw;
+    background-color: #470f5a;
+    margin: 0 auto 0 auto;
+}
+
+.s3-e1{
+    height: 5vh;
+    background-color: #447823;
+    flex-grow: 1;
+}
+
+
+.s3-e2{
+    height: 5vh;
+    background-color: #961513;
+    flex-grow: 1;
+}
+
+.s3-e3{
+    height: 5vh;
+    background-color: #bd2a73;
+    flex-grow: 1;
+}
+
+.s1-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: ifr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 10vh;
+}
+
+.cell-1{
+    background-color: purple;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.cell-2{
+    background-color: red;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 1;
+}
+
+.cell-3{
+    background-color: yellowgreen;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.cell-4{
+    background-color: yellow;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.cell-5{
+    background-color: orange;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.cell-6{
+    background-color: green;
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}

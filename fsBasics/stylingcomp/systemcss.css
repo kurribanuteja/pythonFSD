@@ -1,0 +1,59 @@
+.simple{
+    min-height: 5vh;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(4, 4, 79);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vh 3vw 0.5vh 3vw;
+    color: white;
+    font-size: 2vh;
+    border-radius: 6vh;
+    cursor: pointer;
+    margin: 1vh 8vw;
+    text-align: left;
+    
+    
+}
+.mar{
+    padding: 1vh 3vw 1vh 3vw;
+    
+    
+}
+
+.spa{
+    padding: 1vh 6vw 1vh 6vw;
+    text-align: left;
+    color: rgb(124, 120, 120);
+}
+
+.simple:hover{
+    box-shadow: 5px 5px 10px #00000055;
+   
+}
+
+.lb{
+    background-color: rgb(14, 14, 91);
+
+}
+
+.llb{
+    background-color: rgb(38, 38, 130);
+}
+.lllb{
+    background-color: rgb(68, 68, 180);
+}
+.llllb{
+    background-color: rgb(81, 81, 189);
+}
+.lllllb{
+    background-color: rgb(115, 115, 217);
+}
+.llllllb{
+    background-color: rgb(129, 129, 227);
+}
+.lllllllb{
+    background-color: rgb(165, 165, 241);
+}
