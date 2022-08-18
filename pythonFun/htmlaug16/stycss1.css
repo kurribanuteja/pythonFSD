@@ -113,7 +113,6 @@
 .grid-container{
     height: 30vh;
     width: 90vw;
-    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -173,3 +172,18 @@
     justify-content: space-evenly;
     padding: 0.5vh 1vh 1vh 1vh;
  }
+
+ .fre{
+    font-size: 2vh;
+    color:  rgb(237, 236, 238);
+    font-family: 'Poppins', sans-serif;
+    padding: 1vh 5vw 15vh 2.5vw;
+}
+
+.fre1{
+    font-size: 5vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 3vh 5vw 10vh 0vw;
+}
+ 
