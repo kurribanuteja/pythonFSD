@@ -1,23 +1,21 @@
 import React from 'react';
 import "./App.css";
+import Card from "./components/card";
+import Bord from "./components/card";
+export function App1(){
+  return(
+    <Bord/>
+
+  );
+}
 export default function App(){
   return (
     <div className="App">
-      <div className="card-border">
-      <div className="border-1">
-        <img src="./imgapp/blazers.jpg" className="icon1" alt="" />
-        <img src="./imgapp/Heart.svg" className="icon2" alt="" />
-        <p className="font1">
-          <b>Black Fantasy Sweatshirt</b>
-        </p>
-        <p className="font2">
-          Price <b>$200</b>
-        </p>
-        <div className="border-2">
-          <img src="./imgapp/cart.svg" className="icon3" alt="" />
-        </div>
-      </div>
+      <Card pic="./imgapp/blazers.jpg" title="Blazer1" price="1254.00" lable="NEW" />
+      <Card pic="./imgapp/blazer1.jpg" title="Blazer2" price="2254.00" lable="SALE -40%" />
+      <Card pic="./imgapp/blazer2.webp" title="Blazer3" price="4685.00" lable="SALE -40%" />
+      <Card pic="./imgapp/blazer3.jpg" title="Blazer4" price="1598.00" lable="NEW" />
     </div>
-    </div>
+
   );
-}
+  }
