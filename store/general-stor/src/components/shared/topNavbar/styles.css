@@ -1,0 +1,114 @@
+@import url("../../../App.css");
+
+.topNavBar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.2vh solid rgb(153, 151, 151);
+  height: 8vh;
+  width: 100%;
+}
+
+.topNavBar-title {
+  font-family: var(--font);
+  font-size: 2.5vh;
+  margin-left: 2vw;
+}
+
+.icon1 {
+  height: 5vh;
+  width: 5vh;
+}
+
+.icon3 {
+  height: 6vh;
+  width: 6vh;
+}
+
+.icon2 {
+  height: 5vh;
+  width: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  box-shadow: 0 0 2vh #f0f0f0;
+  border: 0.4vh solid black;
+  margin-left: -50vh;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.icon2:hover {
+  box-shadow: 0 0 2vh #b9b7b7;
+  transition: all 0.3s;
+}
+
+
+.text1{
+  font-family: var(--font);
+  font-size: 2.5vh;
+  margin: 1vh 67vh 1vh 0.2vh;;
+}
+
+.icon-container {
+  height: 6vh;
+  width: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6vh;
+  box-shadow: 0 0 2vh #f0f0f0;
+  margin-right: 2vw;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  margin-right: -70vh;
+}
+
+.icon-container:hover {
+  box-shadow: 0 0 2vh #e0e0e0;
+  transition: all 0.3s;
+}
+
+.icon-container1 {
+  height: 7vh;
+  width: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6vh;
+  box-shadow: 0 0 2vh #f0f0f0;
+  margin-right: 2vw;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  ;
+}
+
+.icon-container1:hover {
+  box-shadow: 0 0 2vh #c0bfbf;
+  transition: all 0.3s;
+}
+
+
+.topNavBar-icon-tooltip {
+  position: absolute;
+  top: -1vh;
+  right: -1vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: var(--font);
+  height: 2.5vh;
+  width: 2.5vh;
+  text-align: center;
+  border-radius: 2.5vh;
+  font-size: 2vh;
+  padding: 0.5vh;
+}

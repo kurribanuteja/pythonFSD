@@ -14,13 +14,3 @@ export default function Card(props) {
     </div>
     );
 }
-export function Bord(props){
-
-
-    return(
-        <div className="border-3">
-        <p className="font3">NEW IN</p>
-    </div>
-
-    );
-}

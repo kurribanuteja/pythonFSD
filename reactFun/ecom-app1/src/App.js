@@ -1,13 +1,6 @@
 import React from 'react';
 import "./App.css";
 import Card from "./components/card";
-import Bord from "./components/card";
-export function App1(){
-  return(
-    <Bord/>
-
-  );
-}
 export default function App(){
   return (
     <div className="App">
