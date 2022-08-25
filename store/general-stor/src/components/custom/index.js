@@ -1,1 +1,2 @@
-export { default as shoppingItem } from "./shoppingItem";
+export { default as Shoppingitem } from "../../components/custom/shoppingItem";
+export { default as Addtocart } from "../../components/custom/addToCart";
