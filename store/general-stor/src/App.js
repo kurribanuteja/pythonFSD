@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css"
-import { ShoppingDashboard } from "./screens";
+import { Shoppingdashboard } from "./screens";
 
 export default function App() {
   
 
   return (
     <div className="App">
-      < ShoppingDashboard />
+      < Shoppingdashboard />
     </div>
   );
 }

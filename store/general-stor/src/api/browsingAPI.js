@@ -1,4 +1,4 @@
-export function getBrowsingData(param) {
+export function Getbrowsingdata(param) {
     return [
       {
         name: "Pants",

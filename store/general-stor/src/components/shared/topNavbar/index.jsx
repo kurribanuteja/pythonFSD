@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 
 export default function Topnavbar(props) {
-  const {  cartToolTip = 0 } = props
+  const { cartToolTip = 0 } = props
   return (
     <div className="topNavBar-container">
       <p className="topNavBar-title">General Store</p>

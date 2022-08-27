@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react'
-import { getBrowsingData } from '../../api/browsingAPI'
-import { Shoppingitem } from '../../src/components/custom/shoppingItem/index'
-import { Topnavbar } from '../../src/components/shared/topNavbar'
-import './styles.css'
+import React, { useEffect, useState } from "react";
+import  Getbrowsingdata  from "../../api";
+import  Shoppingitem  from "../../components/custom";
+import  Topnavbar  from "../../components/shared";
+import "./styles.css";
 
-export default function ShoppingDashboard(props) {
+export default function Shoppingdashboard(props) {
   const [products, setProducts] = useState([])
   useEffect(() => {
-    setProducts(getBrowsingData())
+    setProducts(Getbrowsingdata())
   }, [])
 
   return (

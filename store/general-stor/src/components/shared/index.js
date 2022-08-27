@@ -1,1 +1,1 @@
-export { default as Topnavbar } from "../../components/shared/topNavbar";
+export { default as Topnavbar } from "./topNavbar";
